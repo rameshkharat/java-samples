@@ -14,7 +14,7 @@ jobs:
           echo "hello3" > i3.html
           cd ..
       - name: upload artifacts
-        uses: actions/upload-artifacts@v2
+        uses: actions/upload-artifact@v2
         with: 
           name: artifacts-priar
           path: test1
